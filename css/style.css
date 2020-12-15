@@ -1,5 +1,5 @@
 Img  {  
-width: 200px }
+width: 200px; }
 body {
 background-color: #ED903E;
  }  
@@ -14,6 +14,11 @@ background: #ffffff;
 margin-left: 15px;
 padding: 3px;
 text-deoration: none;
+}
+.col-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
 }
 .col30{
  Width:30%;
@@ -37,24 +42,38 @@ img.hero{
 	width: 75%;
 	padding:0px;0px;50px;10px;
 }
- img.thumbnails{border: 1px; solid #ddd;
+ img.thumbnails{ border: 1px; solid #ddd;
  	            border-radius: 4px;
  	            padding: 5px;
  	            width: 150px;
 }              
-img.hover-thumbnails{box-shadow: 0 0 200px
+img.hover-thumbnails{
+  box-shadow: 0 0 200px;
                rgba(0, 140, 186, 0.5);
                }
- img.thumbnailsco{border: 1px; solid #ddd;
+ img.thumbnailsco{ border: 1px; solid #ddd;
               border-radius: 4px;
               padding: 5px;
-              width: 90%;
-              height: 50%
-}              
-img.hover-thumbnailsco{box-shadow: 0 0 200px
+              width: 70%;
+              height: 65%
+              vertical-align:middle;
+              border-style: none;
+}
+body{margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color:#ED903E ;}    
+} 
+
+img.hover-thumbnailsco{ 
+  box-shadow: 0 0 200px
                rgba(0, 140, 186, 0.5);
 }
-}
+
   table,th,td
   {border: 5px;
     solid #7a1c0b border-collapse: collapse;
@@ -62,12 +81,13 @@ img.hover-thumbnailsco{box-shadow: 0 0 200px
   th,td{
   	padding: 10px;
   }
-    .w3-container{color:#ff0000;
-      width:50%}
-      {    -webkit-locale: "en";
+   
 }
-.divider
-       {border-right:50px #red; 
+.contact-us{position:relative;
+          Width:100%
+          padding-right:15px;
+          boarding-left:15px;}
+      
  }
 .center {
   text-align: center;border: 
@@ -75,11 +95,17 @@ img.hover-thumbnailsco{box-shadow: 0 0 200px
 
  }
  .cart {width:100%;
- }
+        align-center;
+ } 
+ .cart-sm{
+           margin:10px;
+ }     
 th,td {padding: 30;
 
  }
  
  
-    
- 
+.product-@media screen(min-width:601){
+ width:50%;margin:20px;
+
+} 
